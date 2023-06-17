@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion {
+    width: 500px;
+}
+
+.accordion__item:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.item__title {
+    transition: color 0.3s ease;
+}
+
+.item__title:hover {
+    cursor: pointer;
+}
